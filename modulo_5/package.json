@@ -1,0 +1,22 @@
+{
+  "name": "modulo_5",
+  "version": "0.0.1",
+  "description": "Tarefa Módulo 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js",
+    "seed": "node ./controllers/perfilController.js"
+  },
+  "author": "Alexandre Marcet",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "type":"module"
+}
